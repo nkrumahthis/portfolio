@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import HeaderBar from "@/components/header-bar";
+import { ThemeProvider } from "../../context/ThemeProvider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,15 +31,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background text-foreground`}
       >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="container mx-auto px-4">
-          <header className="py-6 flex justify-between items-center">
-            <div className="flex flex-col">
-              <h1 className="text-2xl font-bold">Nkrumah's Portfolio</h1>
-              <p className="text-muted-foreground">Fullstack Software Engineer</p>
-            </div>
-          </header>
+          <HeaderBar />
           <main>{children}</main>
         </div>
+        </ThemeProvider>
       </body>
     </html>
   );
