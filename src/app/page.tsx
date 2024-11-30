@@ -1,69 +1,22 @@
-import { Card, CardTitle, CardHeader, CardDescription, CardContent } from "@/components/ui/card";
-import Link from "next/link";
+import ProjectList from "@/components/ProjectList";
 
-const projects = [
-  { 
-    id: "autocedi", 
-    title: 'AutoCedi', 
-    description: "Bank of Ghana Hackathon Finalist. A user friendly platform to automate payments using Ghana's CBDC: The eCedi.", 
-    slug: 'autocedi',
-    thumbnail: '/thumbnails/autocedi.png',
-    markdown: '/data/markdown/autocedi.md',
-    url: 'https://autocedi.com',
-    github: null
-  },
-  { 
-    id: 2, 
-    title: 'Ghana Parliament AI', 
-    description: 'AI chat app for understanding what is going on in Ghana\'s parliament', 
-    slug: 'gh-parliament-ai',
-    thumbnail: '/thumbnails/gh-parliament-ai',
-    url: 'https://gh-parliament-ai.nkrumahsarpong.com',
-    github: 'https://github.com/nkrumahthis/gh-parliament-ai'
-  },
-  { 
-    id: 3, 
-    title: 'Currency Market', 
-    description: 'Platform connecting businesses with excess currency to those needing it.', 
-    slug: 'currency-market',
-    thumbnail: '/thumbnails/currency-market',
-    url: null,
-    github: 'https://github.com/nkrumahthis/currency-market'
-  },
-  { 
-    id: 4, 
-    title: 'Sentinel Workbench', 
-    description: 'A simplified version of an alert enrichment system inspired by Expel\'s approach to AWS security monitoring.', 
-    slug: 'sentinel-workbench',
-    thumbnail: '/thumbnails/sentinel-workbench',
-    url: null,
-    github: 'https://github.com/nkrumahthis/sentinel-workbench'
-  },
-  { 
-    id: 5, 
-    title: 'Add Print 3d', 
-    description: 'A simplified version of an alert enrichment system inspired by Expel\'s approach to AWS security monitoring.', 
-    slug: 'add-print-3d',
-    thumbnail: '/thumbnails/add-print-3d',
-    url: 'https://addprint3d.com',
-    github: null
-  },
-]
 export default function Home() {
   return (
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {projects.map(project => (
-        <Link href={project.url ?? project.github} key={project.id}>
-          <Card className="h-full transition-shadow hover:shadow-lg">
-            <CardHeader>
-              <CardTitle>{project.title}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CardDescription>{project.description}</CardDescription>
-            </CardContent>
-          </Card>
-        </Link>
-      ))}
+    <div className="space-y-8">
+      <section className="max-w-2xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-4">
+          Welcome to my portfolio
+        </h2>
+        <p className="text-muted-foreground">
+          I'm Emmanuel, a software engineer and full-stack developer with a passion for
+          technology and design. I've worked in edtech, fintech and data analytics.
+          My expertise includes JavaScript, TypeScript, Python, and PHP.
+        </p>
+      </section>
+      <section>
+        <h3 className="text-2xl font-semi-bold mb-6">Projects</h3>
+        <ProjectList />
+      </section>
     </div>
   );
 }
