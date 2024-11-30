@@ -1,3 +1,5 @@
+import { Project } from "@/lib/types";
+
 export const PROJECT_DATA = [
 	{
 		id: "autocedi",
@@ -8,7 +10,6 @@ export const PROJECT_DATA = [
 		thumbnail: "/thumbnails/autocedi.png",
 		markdown: "/data/markdown/autocedi.md",
 		url: "https://autocedi.com",
-		github: null,
 	},
 	{
 		id: 2,
@@ -27,7 +28,7 @@ export const PROJECT_DATA = [
 			"Platform connecting businesses with excess currency to those needing it.",
 		slug: "currency-market",
 		thumbnail: "/thumbnails/currency-market",
-		url: null,
+
 		github: "https://github.com/nkrumahthis/currency-market",
 	},
 	{
@@ -37,7 +38,7 @@ export const PROJECT_DATA = [
 			"A simplified version of an alert enrichment system inspired by Expel's approach to AWS security monitoring.",
 		slug: "sentinel-workbench",
 		thumbnail: "/thumbnails/sentinel-workbench",
-		url: null,
+
 		github: "https://github.com/nkrumahthis/sentinel-workbench",
 	},
 	{
@@ -48,6 +49,5 @@ export const PROJECT_DATA = [
 		slug: "add-print-3d",
 		thumbnail: "/thumbnails/add-print-3d",
 		url: "https://addprint3d.com",
-		github: null,
 	},
-];
+] as Project[];
