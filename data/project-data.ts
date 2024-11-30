@@ -39,6 +39,7 @@ export const PROJECT_DATA = [
 		slug: "add-print-3d",
 		thumbnail: "/thumbnails/addprint3d.png",
 		url: "https://addprint3d.com",
+		technologies: ["React", "Next.js", "MongoDB", "Tailwind"]
 	},
 	{
 		title: "Currency Market",
@@ -63,6 +64,7 @@ export const PROJECT_DATA = [
 			"A simplified version of an alert enrichment system inspired by Expel's approach to AWS security monitoring.",
 		slug: "sentinel-workbench",
 		github: "https://github.com/nkrumahthis/sentinel-workbench",
+		technologies: ["React", "Next.js", "Tailwind"]
 	},
 	
 ] as Project[];
