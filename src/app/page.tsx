@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </section>
       <section className="space-y-8 my-8">
-        <h3 className="text-3xl font-bold mb-6 dark:text-yellow-400 text-amber-600">Things I've Built</h3>
+        <h3 className="text-3xl font-bold mb-6 dark:text-yellow-400 text-yellow-700">Things I've Built</h3>
         <ProjectList />
       </section>
     </div>

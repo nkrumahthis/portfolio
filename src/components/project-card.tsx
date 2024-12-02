@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <ProjectCardImage png={png} gif={gif} title={title} />
         <CardHeader>
           <CardTitle className="text-xl">{title}</CardTitle>
-          <CardDescription className="text-xs dark:text-yellow-400 text-amber-600">
+          <CardDescription className="text-xs dark:text-yellow-400 text-yellow-600 font-semibold">
             {subtitle}
           </CardDescription>
         </CardHeader>

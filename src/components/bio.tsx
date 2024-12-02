@@ -10,10 +10,10 @@ export default function Bio() {
     return (
         <div className="flex-1 space-y-1.5">
             <h1 className="text-5xl font-bold">Emmanuel <br/> Nkrumah-Sarpong</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground  light:text-amber-400">
-                <span className="dark:text-yellow-400 text-amber-600 text-y-400">Fullstack Software Engineer,</span> 6+ years of experience.
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground font-semibold">
+                <span className="dark:text-yellow-400 text-yellow-700 text-y-400 ">Fullstack Software Engineer,</span> 6+ years of experience.
             </p>
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground font-semibold">
                 <a
                     className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                     href="https://www.google.com/search?q=accra"
