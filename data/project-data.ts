@@ -7,7 +7,7 @@ export const PROJECT_DATA = [
 		description:
 			"AI chat app for understanding what is going on in Ghana's parliament",
 		slug: "gh-parliament-ai",
-		thumbnail: "/thumbnails/ghparliamentai.png",
+		png: "/thumbnails/ghparliamentai.png",
 		url: "https://gh-parliament-ai.nkrumahsarpong.com",
 		github: "https://github.com/nkrumahthis/gh-parliament-ai",
 		technologies: [
@@ -36,7 +36,8 @@ export const PROJECT_DATA = [
 			"AWS",
 		],
 		github: "https://github.com/nkrumahthis/currency-market",
-		thumbnail: "/thumbnails/currmark.gif",
+		gif: "/thumbnails/currmark.gif",
+		png: "/thumbnails/currmark.png",
 	},
 	{
 		title: "Sentinel Workbench",
@@ -46,7 +47,9 @@ export const PROJECT_DATA = [
 		slug: "sentinel-workbench",
 		github: "https://github.com/nkrumahthis/sentinel-workbench",
 		technologies: ["React", "Next.js", "Tailwind"],
-		thumbnail: "/thumbnails/alertenrichment.gif",
+		gif: "/thumbnails/alertenrichment.gif",
+		png: "/thumbnails/alertenrichment.png",
+
 	},
 	{
 		title: "Add Print 3d",
@@ -54,17 +57,18 @@ export const PROJECT_DATA = [
 		description:
 			"A place to get your custom 3d printing done. Upload your model files and we print and ship",
 		slug: "add-print-3d",
-		thumbnail: "/thumbnails/addprint3d.png",
+		png: "/thumbnails/addprint3d.png",
 		url: "https://addprint3d.com",
 		technologies: ["React", "Next.js", "MongoDB", "Tailwind"],
 	},
 	{
 		title: "AutoCedi",
 		subtitle: "Full stack Fintech Web App",
+		
 		description:
 			"A user friendly platform to automate payments using Ghana's CBDC: The eCedi. Bank of Ghana Hackathon Finalist Award. ",
 		slug: "autocedi",
-		thumbnail: "/thumbnails/autocedi.png",
+		png: "/thumbnails/autocedi.png",
 		markdown: "/data/markdown/autocedi.md",
 		url: "https://autocedi.com",
 		technologies: ["React", "Next.js", "Javascript", "MongoDB", "Node.js"],
