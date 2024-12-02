@@ -9,9 +9,9 @@ import { GitHubIcon } from './icons/GitHubIcon'
 export default function Bio() {
     return (
         <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">Emmanuel Nkrumah-Sarpong</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
-                Fullstack Software Engineer, 6+ years of experience.
+            <h1 className="text-4xl font-bold">Emmanuel Nkrumah-Sarpong</h1>
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground  light:text-amber-400">
+                <span className="dark:text-yellow-400 text-amber-600 text-y-400">Fullstack Software Engineer,</span> 6+ years of experience.
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
                 <a

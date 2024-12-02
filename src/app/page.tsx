@@ -8,7 +8,7 @@ export default function Home() {
       <section className="max-w-2xl space-y-8 my-8">
         <Bio />
         <p>
-          I'm Emmanuel, and I build software for finance, education and artificial intelligence.
+          I build software for finance, education and artificial intelligence.
         </p>
         <div className="mt-2 flex flex-wrap gap-2">
           {["Javascript", "Typescript", "Python", "PHP"].map(tech =>
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </section>
       <section className="space-y-8 my-8">
-        <h3 className="text-2xl font-bold mb-6">Things I've Built</h3>
+        <h3 className="text-2xl font-bold mb-6 dark:text-amber-400 text-amber-600">Things I've Built</h3>
         <ProjectList />
       </section>
     </div>

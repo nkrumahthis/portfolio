@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         }
         <CardHeader>
           <CardTitle className="text-xl">{title}</CardTitle>
-          <CardDescription className="text-xs">{subtitle}</CardDescription>
+          <CardDescription className="text-xs dark:text-amber-400 text-amber-600">{subtitle}</CardDescription>
         </CardHeader>
         <CardContent>
           <CardDescription>
