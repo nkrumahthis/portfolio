@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <Card className="h-full transition-shadow hover:shadow-lg">
         {thumbnail &&
           <div className="border-solid border-2 border-gray-100">
-            <Image src={thumbnail} height={0} width={0} alt={title} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src={thumbnail} height={0} width={0} alt={title} sizes="100vw" className="w-full h-auto"  layout="responsive" loading="lazy" />
           </div>
         }
         <CardHeader>
@@ -29,11 +29,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               {technologies.map(tech =>
                 <Badge variant="secondary" className="text-[10px]" key={tech}>{tech}</Badge>
               )}
-            </div>
-          </CardDescription>
-          <CardDescription>
-            <div className="mt-2 flex flex-wrap gap-1">
-
             </div>
           </CardDescription>
         </CardContent>

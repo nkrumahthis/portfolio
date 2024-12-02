@@ -2,6 +2,26 @@ import { Project } from "@/lib/types";
 
 export const PROJECT_DATA = [
 	{
+		title: "Ghana Parliament AI",
+		subtitle: "Full Stack AI Web App and Data Pipeline",
+		description:
+			"AI chat app for understanding what is going on in Ghana's parliament",
+		slug: "gh-parliament-ai",
+		thumbnail: "/thumbnails/ghparliamentai.png",
+		url: "https://gh-parliament-ai.nkrumahsarpong.com",
+		github: "https://github.com/nkrumahthis/gh-parliament-ai",
+		technologies: [
+			"React",
+			"Next.js",
+			"Typescript",
+			"Python",
+			"MongoDB",
+			"Pinecone",
+			"OpenAI",
+			"AWS",
+		],
+	},
+	{
 		title: "Currency Market",
 		subtitle: "Full Stack Currency Order Matching Platform",
 		description:
@@ -37,26 +57,6 @@ export const PROJECT_DATA = [
 		thumbnail: "/thumbnails/addprint3d.png",
 		url: "https://addprint3d.com",
 		technologies: ["React", "Next.js", "MongoDB", "Tailwind"],
-	},
-	{
-		title: "Ghana Parliament AI",
-		subtitle: "Full Stack AI Web App and Data Pipeline",
-		description:
-			"AI chat app for understanding what is going on in Ghana's parliament",
-		slug: "gh-parliament-ai",
-		thumbnail: "/thumbnails/ghparliamentai.png",
-		url: "https://gh-parliament-ai.nkrumahsarpong.com",
-		github: "https://github.com/nkrumahthis/gh-parliament-ai",
-		technologies: [
-			"React",
-			"Next.js",
-			"Typescript",
-			"Python",
-			"MongoDB",
-			"Pinecone",
-			"OpenAI",
-			"AWS",
-		],
 	},
 	{
 		title: "AutoCedi",
