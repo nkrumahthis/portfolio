@@ -15,6 +15,7 @@ export const PROJECT_DATA = [
 			"Next.js",
 			"Typescript",
 			"Python",
+			"Langchain",
 			"MongoDB",
 			"Pinecone",
 			"OpenAI",
