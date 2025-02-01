@@ -22,6 +22,16 @@ export const PROJECT_DATA = [
 			"AWS",
 		],
 	},
+	{
+		title: "Invoice Now",
+		subtitle: "Create an invoice in a minute, no sign up, no ads.",
+		description:
+			"Create an invoice in a minute, no sign up, no ads. Just download and send.",
+		slug: "invoice-now",
+		png: "/thumbnails/invoicenow.png",
+		url: "https://invoice-now.vercel.app",
+		technologies: ["React", "Typescript", "Next.js", "Tailwind", "Shadcn"],
+	},
 
 	{
 		title: "Add Print 3d",
