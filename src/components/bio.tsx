@@ -11,7 +11,7 @@ export default function Bio() {
         <div className="flex-1 space-y-1.5">
             <h1 className="text-5xl font-bold">Emmanuel <br/> Nkrumah-Sarpong</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground font-semibold">
-                <span className="dark:text-yellow-400 text-yellow-700 text-y-400 ">Fullstack Software Engineer,</span> 6+ years of experience.
+                <span className="dark:text-yellow-400 text-yellow-700 text-y-400 ">Fullstack Software Engineer,</span> 8+ years of experience.
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground font-semibold">
                 <a

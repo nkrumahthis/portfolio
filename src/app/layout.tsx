@@ -16,8 +16,15 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Emmanuel's Portfolio",
-  description: "Portfolio of Emmanuel Nkrumah-Sarpong",
+  metadataBase: new URL("https://nkrumah.dev"),
+  title: {
+    default: "Emmanuel Nkrumah-Sarpong",
+    template: "%s · Emmanuel Nkrumah-Sarpong",
+  },
+  description: "Software engineer. Weekly notes on what I'm learning in software engineering.",
+  alternates: {
+    types: { "application/rss+xml": "/feed.xml" },
+  },
 };
 
 export default function RootLayout({
@@ -32,7 +39,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background text-foreground`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <div className="container mx-auto px-4">
+        <div className="mx-auto max-w-3xl px-4">
           <HeaderBar />
           <main>{children}</main>
         </div>

@@ -8,7 +8,7 @@ export const PROJECT_DATA = [
 			"AI chat app for understanding what is going on in Ghana's parliament",
 		slug: "gh-parliament-ai",
 		png: "/thumbnails/ghparliamentai.png",
-		url: "https://gh-parliament-ai.nkrumahsarpong.com",
+		url: "https://gh-parliament-ai.vercel.app",
 		github: "https://github.com/nkrumahthis/gh-parliament-ai",
 		technologies: [
 			"React",
